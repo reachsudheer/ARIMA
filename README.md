@@ -1,0 +1,1 @@
+The objective this project build time series model using ARIMA and finetuning it using parameter tuning algorithms
