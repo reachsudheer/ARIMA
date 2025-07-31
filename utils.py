@@ -9,4 +9,6 @@ def arima_model(data,order):
     model = ARIMA(data, order= order)
     arima_fit =  model.fit()
 
+    preds =arima.predict()
+
     return arima_fit
